@@ -36,23 +36,14 @@ modules:
         - Meslo
         - JetBrainsMono
 
-  - type: default-flatpaks
-    notify: true 
-    system:
-      install:
-        - org.gnome.Loupe
-        - com.discordapp.Discord
-        - com.valvesoftware.Steam
-      remove:
-        - org.gnome.eog
-    user: {} 
-
   - type: systemd
     user:
       enabled:
         - 1password.service
 
   - type: yafti
+
+  - type: gschema-overrides
 
   - type: signing 
 
