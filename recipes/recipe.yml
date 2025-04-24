@@ -30,9 +30,6 @@ modules:
   - type: brew
     nofile-limits: true
 
-  - type: chezmoi
-    disable-init: true
-
   - type: fonts
     fonts:
       nerd-fonts:
