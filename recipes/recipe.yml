@@ -47,12 +47,6 @@ modules:
         - org.gnome.eog
     user: {} 
 
-  - type: gnome-extensions
-    install:
-      - 615  # AppIndicator and KStatusNotifierItem Support
-      - 3193 # Blur my Shell
-      - 3843 # Just Perfection
-
   - type: systemd
     user:
       enabled:
