@@ -22,6 +22,8 @@ modules:
       - micro
       - starship
       - zsh
+    optfix:
+      - brave.com
 
   - type: bling
     install:
